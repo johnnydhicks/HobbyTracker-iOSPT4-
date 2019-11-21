@@ -7,15 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		382EC5F223862FF200BFFF01 /* AddFriendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 382EC5F123862FF200BFFF01 /* AddFriendViewController.swift */; };
+		382EC5F42386301900BFFF01 /* FriendDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 382EC5F32386301900BFFF01 /* FriendDetailViewController.swift */; };
+		382EC5F7238635C000BFFF01 /* FriendTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 382EC5F6238635C000BFFF01 /* FriendTableViewCell.swift */; };
 		38AE3DA4237E475C00302662 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38AE3DA3237E475C00302662 /* AppDelegate.swift */; };
 		38AE3DA6237E475C00302662 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38AE3DA5237E475C00302662 /* SceneDelegate.swift */; };
 		38AE3DA8237E475C00302662 /* FriendsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38AE3DA7237E475C00302662 /* FriendsTableViewController.swift */; };
 		38AE3DAB237E475C00302662 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38AE3DA9237E475C00302662 /* Main.storyboard */; };
 		38AE3DAD237E475D00302662 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38AE3DAC237E475D00302662 /* Assets.xcassets */; };
 		38AE3DB0237E475D00302662 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38AE3DAE237E475D00302662 /* LaunchScreen.storyboard */; };
+		38DD0B0923863B4000FD5D5A /* Friend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38DD0B0823863B4000FD5D5A /* Friend.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		382EC5F123862FF200BFFF01 /* AddFriendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFriendViewController.swift; sourceTree = "<group>"; };
+		382EC5F32386301900BFFF01 /* FriendDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendDetailViewController.swift; sourceTree = "<group>"; };
+		382EC5F6238635C000BFFF01 /* FriendTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendTableViewCell.swift; sourceTree = "<group>"; };
 		38AE3DA0237E475C00302662 /* HobbyTracker(iOSPT4).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HobbyTracker(iOSPT4).app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		38AE3DA3237E475C00302662 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		38AE3DA5237E475C00302662 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +31,7 @@
 		38AE3DAC237E475D00302662 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		38AE3DAF237E475D00302662 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		38AE3DB1237E475D00302662 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38DD0B0823863B4000FD5D5A /* Friend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friend.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +45,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		382EC5F023862F9A00BFFF01 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				38AE3DA7237E475C00302662 /* FriendsTableViewController.swift */,
+				382EC5F123862FF200BFFF01 /* AddFriendViewController.swift */,
+				382EC5F32386301900BFFF01 /* FriendDetailViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		382EC5F52386358D00BFFF01 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				382EC5F6238635C000BFFF01 /* FriendTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		38AE3D97237E475C00302662 = {
 			isa = PBXGroup;
 			children = (
@@ -58,13 +84,23 @@
 			children = (
 				38AE3DA3237E475C00302662 /* AppDelegate.swift */,
 				38AE3DA5237E475C00302662 /* SceneDelegate.swift */,
-				38AE3DA7237E475C00302662 /* FriendsTableViewController.swift */,
+				38DD0B0723863B1B00FD5D5A /* Model */,
+				382EC5F023862F9A00BFFF01 /* View Controllers */,
+				382EC5F52386358D00BFFF01 /* Views */,
 				38AE3DA9237E475C00302662 /* Main.storyboard */,
 				38AE3DAC237E475D00302662 /* Assets.xcassets */,
 				38AE3DAE237E475D00302662 /* LaunchScreen.storyboard */,
 				38AE3DB1237E475D00302662 /* Info.plist */,
 			);
 			path = "HobbyTracker(iOSPT4)";
+			sourceTree = "<group>";
+		};
+		38DD0B0723863B1B00FD5D5A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				38DD0B0823863B4000FD5D5A /* Friend.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,8 +174,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				382EC5F223862FF200BFFF01 /* AddFriendViewController.swift in Sources */,
+				38DD0B0923863B4000FD5D5A /* Friend.swift in Sources */,
 				38AE3DA8237E475C00302662 /* FriendsTableViewController.swift in Sources */,
 				38AE3DA4237E475C00302662 /* AppDelegate.swift in Sources */,
+				382EC5F7238635C000BFFF01 /* FriendTableViewCell.swift in Sources */,
+				382EC5F42386301900BFFF01 /* FriendDetailViewController.swift in Sources */,
 				38AE3DA6237E475C00302662 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
